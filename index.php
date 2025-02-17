@@ -9,26 +9,61 @@
         *{
             margin:0;
             padding: 0 ;
+            box-sizing:border-box;
             
-        }
+        } 
+
 
         p {
-            border: 1px solid pink 
+            border-widht: 5px;
+            border-style: solid;
+            border-color: pink;
+            font-size: 3rem;
 
         }
 
         h1 {
-            background: pink;
+            background: blue;
 
         }
-        body{
+      /*body{ 
             background-image: url('imagens/logo.png');
             background-repeat: no-repeat;
             background-position: center;
+            background-attachment: fixed;
+            background-size: 100%;
+            
+         }*/
 
+       {  border: 10px solid pink;
+         widht: 80vm;
+         height: 100%;
 
+        } 
+
+        h1 {
+            background-color: purple;
+            display:block;
 
         }
+
+        H1.HOVER{
+            background-color: blue;
+        }
+
+        .logo{
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            
+        }
+
+        #interface{
+
+        }
+
+
         </style>
 
     <link rel="stylesheet" href="css/styles.css />
