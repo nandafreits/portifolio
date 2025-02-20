@@ -1,89 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifólio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio</title>
 
     <style>
-        *{
-            margin:0;
-            padding: 0 ;
-            box-sizing:border-box;
-            
-        } 
-
-
-        p {
-            border-widht: 5px;
-            border-style: solid;
-            border-color: pink;
-            font-size: 3rem;
-
+        :root {
+            font-size: 16px;
         }
 
-        h1 {
-            background: blue;
-
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-      /*body{ 
-            background-image: url('imagens/logo.png');
+
+        body {
+            /* background-image: url('imagens/logo.png');
             background-repeat: no-repeat;
             background-position: center;
-            background-attachment: fixed;
             background-size: 100%;
-            
-         }*/
+            background-attachment: fixed; */
 
-       {  border: 10px solid pink;
-         widht: 80vm;
-         height: 100%;
+            border: 10px solid red;
+            width: 100vw;
+            height: 100vh;
+            overflow-x: hidden;
+        }
 
-        } 
+        p {
+            /* border: 1px solid red; */
+            border-width: 10px;
+            border-style: solid;
+            border-color: blue;
+            font-size: 3rem;
+        }
 
         h1 {
-            background-color: purple;
-            display:block;
-
+            background-color: violet;
+            display: block;
         }
 
-        H1.HOVER{
-            background-color: blue;
+        h1:hover {
+            background-color: red;
         }
 
-        .logo{
-            position: absolute;
-            top: 0;
+        .logo {
+            position: fixed;
+            bottom: calc(100vh/2);
             right: 0;
-
-            
         }
 
-        #interface{
+        #interface {
 
         }
-
-
-        </style>
-
-    <link rel="stylesheet" href="css/styles.css />
-    
+    </style>
 </head>
 <body>
 
-
-  <div class="interface">
+<div id="interface">
 
     <header class="cabecalho">
 
         <nav class="menu">
 
-
             <div class="logo">
-
                 <img src="imagens/logo.png" alt="LOGO" width="150" />
-
             </div>
+
             <ul>
                 <li>Home</li>
                 <li>Serviços</li>
@@ -93,35 +78,45 @@
                 <li>Contato</li>
             </ul>
 
-            <ol>
-
-
-            </ol>
-
         </nav>
 
-        <div class="title">
+        <div class="titles">
 
             <h1 class="titulo">Entregando serviços de qualidade</h1>
-            <h1 class="subtitulo">Soluçoes em TI</h1>
+            <h1 class="subtitulo">Soluções em TI</h1>
 
-            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex voluptas fugiat. Praesentium, assumenda nemo?</p>
+            <p class="paragrafo">Ave Maria, gratia plena, Dominus tecum: benedicta tu in mulieribus et benedictus fructus ventris tui Iesu. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae.Amen.</p>
 
         </div>
 
         <div class="socialIcons">
             <a href="#">Twitter</a>
             <a href="#">Facebook</a>
-            <a href="#">Linkedin</a>
+            <a href="#">LinkedIn</a>
             <a href="#">Instagram</a>
         </div>
 
     </header>
 
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+    <br><br><br><br><br><br><br>
+    <hr>
+
+</div>
     
-
-  </div>
-
-
 </body>
 </html>
