@@ -3,125 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifólio</title>
+    <title>Portifólio</title>
 
-    <style>
-        *{
-            margin:0;
-            padding: 0 ;
-            box-sizing:border-box;
-            
-        } 
+    <link rel="stylesheet" href="css/style.css">
 
-
-        p {
-            border-widht: 5px;
-            border-style: solid;
-            border-color: pink;
-            font-size: 3rem;
-
-        }
-
-        h1 {
-            background: blue;
-
-        }
-      /*body{ 
-            background-image: url('imagens/logo.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            background-size: 100%;
-            
-         }*/
-
-       {  border: 10px solid pink;
-         widht: 80vm;
-         height: 100%;
-
-        } 
-
-        h1 {
-            background-color: purple;
-            display:block;
-
-        }
-
-        H1.HOVER{
-            background-color: blue;
-        }
-
-        .logo{
-            position: absolute;
-            top: 0;
-            right: 0;
-
-            
-        }
-
-        #interface{
-
-        }
-
-
-        </style>
-
-    <link rel="stylesheet" href="css/styles.css />
-    
 </head>
+
 <body>
 
-
-  <div class="interface">
+<div id="interface">
 
     <header class="cabecalho">
 
-        <nav class="menu">
+             <nav class="menu">
 
+                <div class="logo">
 
-            <div class="logo">
+                    <img src="imagens/logo.png" alt="LOGO" width="150"/>
 
-                <img src="imagens/logo.png" alt="LOGO" width="150" />
+</div>
 
-            </div>
-            <ul>
-                <li>Home</li>
-                <li>Serviços</li>
-                <li>Produtos</li>
-                <li>Portifólio</li>
-                <li>Sobre</li>
-                <li>Contato</li>
-            </ul>
-
-            <ol>
-
-
-            </ol>
+        <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Portifólio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contatos</a></li>
+        </ul>
 
         </nav>
 
-        <div class="title">
+        <div class="titles"> <!-- ============================ -->
+        <div class= "container-titles">
 
-            <h1 class="titulo">Entregando serviços de qualidade</h1>
-            <h1 class="subtitulo">Soluçoes em TI</h1>
+            <h1 class="título">Entregando serviços de qualidade</h1>
+            <h1 class="subtítulo">Soluções em TI</h1>
 
-            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex voluptas fugiat. Praesentium, assumenda nemo?</p>
-
+            <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam culpa natus est distinctio quae eaque.</p>
         </div>
 
         <div class="socialIcons">
-            <a href="#">Twitter</a>
-            <a href="#">Facebook</a>
-            <a href="#">Linkedin</a>
-            <a href="#">Instagram</a>
+
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+    
         </div>
 
     </header>
 
-    
-
-  </div>
-
+</div>
 
 </body>
+
 </html>
