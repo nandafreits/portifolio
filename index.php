@@ -1,3 +1,5 @@
+   
+       
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -28,7 +30,7 @@
                 <li><a href="#">Portifólio</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="#">Restrito</a></li>
+                <li><a href="#">Registro</a></li>
             </ul>
 
         </nav>
@@ -50,57 +52,60 @@
              
     </header>
 
+    <main id="corpo">
+        <section class="servicos">
 
-    <!-- ========================== -->
- 
-    <main id= "corpo">
-        <section class = "Serviços">
+            <article class="servico">
+                <img src="imagens/service-design.svg" alt="Design">
+                <h3 class="title-servico">Desenvolvimento WEB</h3>
+                <p class="text-servico">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam veritatis culpa totam a, mollitia natus?</p>
+            </article>
+            <article class="servico">
+                <img src="imagens/service-hosting.svg" alt="Hosting">
+                <h3 class="title-servico">WEB Hosting</h3>
+                <p class="text-servico">Totam odit quidem mollitia officia animi corrupti, architecto similique at alias! Delectus incidunt corrupti odio?</p>
+            </article>
+            <article class="servico">
+                <img src="imagens/service-social.svg" alt="Social">
+                <h3 class="title-servico">Mídias Sociais</h3>
+                <p class="text-servico">Omnis accusantium nulla tempora doloremque, porro, reiciendis in sint accusamus aperiam incidunt saepe itaque nam?</p>
+            </article>
+            <article class="servico">
+                <img src="imagens/service-seo.svg" alt="Seo">
+                <h3 class="title-servico">Aplicação SEO</h3>
+                <p class="text-servico">Est, quo saepe ea voluptate nulla dolor optio assumenda ratione distinctio voluptatem rem illo ad!</p>
+            </article>
+            <article class="servico">
+                <img src="imagens/service-cloud.svg" alt="Cloud">
+                <h3 class="title-servico">Computação em Nuvem</h3>
+                <p class="text-servico">Ipsa cum molestiae vitae maxime provident molestias optio alias, adipisci ducimus delectus quibusdam recusandae odio.</p>
+            </article>
+            <article class="servico">
+                <img src="imagens/service-secure.svg" alt="Security">
+                <h3 class="title-servico">Segurança de Dados  </h3>
+                <p class="text-servico">Autem expedita quas, non enim eaque ducimus dolore doloremque provident sapiente magni accusantium ut natus.</p>
+            </article>
 
-        <article class="servico">
-            <img src="imagens/service-design.svg" alt="Design"/>
-            <h3 class="title-servicle">
-            <p class="text-servico">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error odit neque sapiente molestiae officia quidem.</p>
-        </article>
-        <article class="servico">
-            <img src="Imagens/ser" alt="">
-            <h3 class="title-servicle">
-            <p class="text-servico">Molestias vitae, beatae animi, porro corporis repellat a, minus unde voluptate in quaerat ipsum ullam.</p>
-        </article>
-        <article class="servico">
-            <img src="" alt="">
-            <h3 class="title-servicle">
-            <p class="text-servico">Nisi quo hic alias placeat aliquam mollitia suscipit quas ut nostrum, similique voluptates repellendus eos.</p>
-        </article>
-        <article class="servico">
-            <img src="" alt="">
-            <h3 class="title-servicle">
-            <p class="text-servico">In amet, sit velit, doloribus quod necessitatibus cum aspernatur facere harum incidunt, dolore mollitia dicta!</p>
-        </article>
-        <article class="servico">
-            <img src="" alt="">
-            <h3 class="title-servicle">
-            <p class="text-servico">Aut fugit quaerat, dolorem necessitatibus porro error, consequatur provident rem, veritatis et eius autem a.</p>
-        </article>
-        <article class="servico">
-            <img src="" alt="">
-            <h3 class="title-servicle">
-            <p class="text-servico">Modi perspiciatis doloribus impedit quae eveniet illum ullam ad explicabo! Minus dolore ratione saepe harum?</p>
-        </article>
-
-
-
-     </section>
-
-
-      </section class= "sobre">
-
-
-      </section>
-</main>
+        </section>
 
 
 
+
+        <section class="portifolio">
+
+
+        </section>
+
+
+        <section class="sobre">
+
+
+
+        </section>
+
+
+    </main>
 </div>
     
 </body>
-</html> 
+</html>        
