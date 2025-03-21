@@ -7,17 +7,17 @@ Oswald is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  Oswald/Oswald-VariableFont_wght.ttf
+  Oswald-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
 in those cases you can use the static font files for Oswald:
-  Oswald/static/Oswald-ExtraLight.ttf
-  Oswald/static/Oswald-Light.ttf
-  Oswald/static/Oswald-Regular.ttf
-  Oswald/static/Oswald-Medium.ttf
-  Oswald/static/Oswald-SemiBold.ttf
-  Oswald/static/Oswald-Bold.ttf
+  static/Oswald-ExtraLight.ttf
+  static/Oswald-Light.ttf
+  static/Oswald-Regular.ttf
+  static/Oswald-Medium.ttf
+  static/Oswald-SemiBold.ttf
+  static/Oswald-Bold.ttf
 
 Get started
 -----------
