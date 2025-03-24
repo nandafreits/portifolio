@@ -124,6 +124,7 @@
 
                 
             <section class="sobre">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure commodi iusto, eveniet exercitationem veniam laudantium reprehenderit animi sequi impedit porro aspernatur fugiat obcaecati molestias suscipit. Quam ipsum quibusdam autem!
 
                 
 
