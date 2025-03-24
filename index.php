@@ -119,14 +119,51 @@
 
                     <p class="txt-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis, cupiditate fuga ipsam, qui aspernatur quo adipisci officiis repudiandae ullam laboriosam sint corrupti et obcaecati?</p>
 
-                    <button class="btn-banner">Saiba mais</button>
+                    <a href="#">Saiba mais</a>
                 </hgroup>
 
                 
             <section class="sobre">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure commodi iusto, eveniet exercitationem veniam laudantium reprehenderit animi sequi impedit porro aspernatur fugiat obcaecati molestias suscipit. Quam ipsum quibusdam autem!
+                
 
                 
+
+            </section>
+
+            <section class="contato" > 
+
+            <h3 class="title-contato">fale conosco</h3>
+            <p class="sub-title">Lorem ipsum dolor sit amet.</p>
+
+            <div class="container-contato"></div>
+
+           <anside class="dados-contato">
+             <h4 class="title-aside">Endereço </h4>
+             <p class="txt-aside">Rua das Margaridas, S/Nº - Centro - Manhuaçu MG</p>
+
+             <h4 class="title-aside">Telefone </h4>
+             <p class="txt-aside">33 3351-3333</p>
+             <p class="text-anside"> 33 9 8400-9999</p>
+
+             <h4 class="title-aside">E-Mail </h4>
+             <p class="txt-aside">contato@meusite.com.br</p>
+             <p class="text-anside">faleconosco@meusite.com.br</p>
+
+          </anside>
+             
+          <form action="" method = "POST">
+
+            <input type="text" name="nome" id="nome" placeholder= "Nome*" required />
+            <input type="email" name="email" id="email" placeholder= "E-Mail*" required />
+            <input type="text" name="assunto" id="assunto" placeholder= "Assunto*" required />
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+
+            <input type="submit" value="Envia mensagem" />
+
+          </form>
+
+
+
 
             </section>
         </main>
