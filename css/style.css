@@ -81,9 +81,14 @@
     display: block;
     font-family: Oswald;
     color: var(--branco-padrao) ;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: .5rem 1rem;
     text-decoration: none;
+}
+
+#interface .cabecalho .menu ul li a i {
+    font-size: 1.5rem;
+    margin-right: .5rem;
 }
 
 #interface .cabecalho .menu ul li a::after {
