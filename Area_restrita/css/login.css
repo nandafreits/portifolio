@@ -1,25 +1,25 @@
 :root {
     font-size: 12px;
     font-family: Verdana, sans-serif;
-    --azul-padrao:var(--azul-padrao)
-    --azul-escuro:var(--azul-escuro):
-    --rosa-padrao: #9941bf;
-    --branco-padrao: #fafafa;
+    --azul-padrao: #3C6AA6;
+    --azul-escuro: #17437C;
+    --rosa-padrao: #9941BF;
+    --branco-padrao: #FAFAFA;
 }
 
 @font-face {
     font-family: Roboto;
-    src: url('../../fontes/Roboto/static/Roboto-Regular.ttf');
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
 }
 
 @font-face {
     font-family: Oswald;
-    src: url('../../fontes/Oswald/static/Oswald-Regular.ttf');
+    src: url('../../fonts/Oswald/static/Oswald-Regular.ttf');
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url('../../fontes/Montserrat/static/Montserrat-Regular.ttf');
+    src: url('../../fonts/Montserrat/static/Montserrat-Regular.ttf');
 }
 
 * {
@@ -43,11 +43,10 @@
 
 #interface form {
     display: block;
-    width: 320px;
-    padding: 2rem;
+    width: 350px;
+    padding: 2rem 3rem;
     box-shadow: 0 0 2px rgba(0,0,0,.4);
-    background-color: linear-gradient(90deg, var(--azul-padrao) var(--azul-escuro));
-    background-color: var(--azul-padrao);
+    background: linear-gradient(135deg, var(--azul-padrao), var(--azul-escuro));
     border-radius: 1rem;
 }
 
@@ -64,7 +63,7 @@
     overflow: hidden;
 }
 
-#interface form .title-login input {
+#interface form input {
     display: block;
     width: 100%;
     padding: .75rem 1rem;
@@ -72,14 +71,14 @@
     margin-bottom: .5rem;
 }
 
-#interface form #bt.subit {
-    background: #04AA6D;
+#interface form #bt-submit {
+    background-color: #04AA6D;
     color: var(--branco-padrao);
     box-shadow: 0 0 2px rgba(0,0,0,.2);
     text-transform: uppercase;
 }
 
-#interface form #bt.subit:hover {
+#interface form #bt-submit:hover {
     background-color: #059862;
     cursor: pointer;
 }

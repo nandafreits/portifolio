@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="tools/fontawesome/css/all.css" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <script src="tools/jquery/jquery.js"></script>
+
+    <script>
+        
+    </script>
+
 </head>
 <body>
 
@@ -23,11 +29,11 @@
 
             <ul>
                 <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
-                <li><a href="#"><i class="fas fa-tasks"></i>Serviços</a></li>
+                <li><a href="#servicos"><i class="fas fa-tasks"></i>Serviços</a></li>
                 <li><a href="#"><i class="fas fa-photo-video"></i>Portifólio</a></li>
                 <li><a href="#"><i class="fas fa-user-friends"></i>Sobre</a></li>
-                <li><a href="#"><i class="fas fa-address-card"></i>Contato</a></li>
-                <li><a href="Area_restrita/js/login.php/"><i class="fas fa-unlock-alt"></i>Restrito</a></li>
+                <li><a href="#"><i class="fas fa-comments"></i>Contato</a></li>
+                <li><a href="area_restrita/js/login.php"><i class="fas fa-unlock-alt"></i>Restrito</a></li>
             </ul>
 
         </nav>
@@ -55,7 +61,7 @@
 
     <main id="corpo">
 
-        <section class="servicos">
+        <section id="servicos" class="servicos">
 
             <article class="servico">
                 <img src="imagens/service-design.svg" alt="Design">
@@ -244,7 +250,7 @@
 
             </div>
 
-            <p class="txt-creditos">Maria Fernanda Fernandes Freitas &copy; 2025</p>
+            <p class="txt-creditos">Maria Fernanda fernandes Freitas &copy; 2025</p>
 
         </div>
 

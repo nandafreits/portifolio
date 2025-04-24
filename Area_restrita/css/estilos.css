@@ -8,17 +8,17 @@
 
 @font-face {
     font-family: Roboto;
-    src: url('../../fontes/Roboto/static/Roboto-Regular.ttf');
+    src: url('../../fonts/Roboto/Roboto-Regular.ttf');
 }
 
 @font-face {
     font-family: Oswald;
-    src: url('../../fontes/Oswald/static/Oswald-Regular.ttf');
+    src: url('../../fonts/Oswald/static/Oswald-Regular.ttf');
 }
 
 @font-face {
     font-family: Montserrat;
-    src: url('../../fontes/Montserrat/static/Montserrat-Regular.ttf');
+    src: url('../../fonts/Montserrat/static/Montserrat-Regular.ttf');
 }
 
 * {
@@ -28,3 +28,4 @@
     border: 0;
     vertical-align: baseline;
 }
+
